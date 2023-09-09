@@ -39,3 +39,83 @@
       </div>    
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+html {
+    background-color: #FFF0F5;
+}
+
+body {
+    height: 600px;
+}
+
+p {
+    font-size: 100px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'Raleway Dots', cursive;
+    font-weight: 1000;
+    font-size: 85px;
+    color: #800000
+  }
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 230px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.icon-buttons {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 250px;
+    color: #800000;
+    background-color: white;
+    font-weight: 100px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+}
